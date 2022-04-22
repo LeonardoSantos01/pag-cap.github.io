@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(img/background.png);
+    background-size: cover;
+    width: 95vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url(img/logo.png);
+    background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 115px;
+    margin: 0 auto;
+    /*border: 2px solid blue;*/
+}
+
+.container {
+  /*border: 2px solid red; bordas da caixa*/
+  /* width: 100vw; 100% da largura*/
+  /* height: 100vh; 100% da altura*/
+   width: 500px;
+   height: 500px;
+   margin: 150px auto;
+   text-align: center;
+   padding: 15px;
+   position: relative;
+   box-sizing: content-box;
+   color: white;
+   display: block;
+}
+
+h1, h2 {
+    margin: 20px 0 5px 0;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+form {
+ padding: 10px;
+}
+
+.entrada {
+    cursor: inherit;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(233, 229, 229);
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+button {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border: 1px solid #358cfd;
+    background-color: #358cfd;
+    color: white;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #2b75d6;
+    cursor: pointer;
+}
